@@ -1,0 +1,13 @@
+
+language: node_js
+
+node_js:
+  - node
+  - 4
+
+after_script:
+  - npm run test-cov
+  - cat ./coverage/lcov.info | coveralls
+  - cat ./coverage/lcov.info | codecov
+
+sudo: false
