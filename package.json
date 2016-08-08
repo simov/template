@@ -23,6 +23,9 @@
   },
   "main": "index.js",
   "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
     "index.js"
   ],
   "scripts": {
