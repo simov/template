@@ -32,6 +32,9 @@
     "test": "npm run lint && npm run test-ci",
     "test-ci": "mocha test/",
     "test-cov": "istanbul cover _mocha",
-    "lint": "eslint . && echo Lint Passed"
+    "lint": "eslint **/*.js && echo Lint Passed"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   }
 }
